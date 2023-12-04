@@ -1,0 +1,102 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+}
+
+form{
+  width:40%;
+  margin:auto auto;
+  background-color:rgb(27,27,50,0.8);
+  color:white;
+  padding:20px;
+  border-radius:15px;
+
+}
+
+.title{
+  text-align:center;
+}
+
+.contact-information{
+  display:block;
+  margin-bottom:15px;
+}
+
+.input-information{
+  display:block;
+  width:95%;
+  height:30px;
+  margin: 10px auto 0 auto;
+  border-radius:6px;
+  padding:10px;
+  border:none;
+  
+}
+
+.dropdown-title{
+  display:block;
+  margin-bottom:10px;
+}
+
+.dropdown{
+  display:block;
+  width:99%;
+  height:30px;
+  margin: 10px auto 0 auto;
+  border-radius:6px;
+  padding:5px;
+  border:none;
+}
+
+.reccomendation{
+  display:block;
+}
+
+.checkbox-item{
+  display:block;
+}
+
+.checkbox-last{
+  margin-bottom:10px;
+}
+
+
+.textarea-title{
+  display:block;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+.text{
+  margin-bottom:20px;
+  width:99%;
+  height:80px;
+}
+
+.button{
+  width:99%;
+  height:30px;
+  border:none;
+  border-radius:5px;
+  background-color:green;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px auto 0 auto;
+}
+
+
